@@ -198,4 +198,17 @@ button:hover {
 .choose-plan-btn:hover {
     background-color: #0056b3;
 }
+.portfolio-img {
+    width: 390px;   /* Adjust width as needed */
+    height: auto;   /* Keeps the aspect ratio */
+    display: block;
+    margin: 0 auto 15px auto; /* Center and add space below */
+}
 
+/* Or target all images inside .project-card */
+.project-card img {
+    width: 390px;   /* Adjust width as needed */
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+}
