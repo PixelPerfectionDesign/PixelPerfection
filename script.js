@@ -29,9 +29,11 @@ window.addEventListener("scroll", () => {
         }
     });
 });
+// Portfolio page JavaScript
+
 console.log("Portfolio page loaded!");
 
-
+// Example: Highlight project card on hover
 document.addEventListener("DOMContentLoaded", function() {
     const cards = document.querySelectorAll('.project-card');
     cards.forEach(card => {
